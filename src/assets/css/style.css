@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'SmileySans';
+    src: url('https://cdn.coderjiang.com/home-page/font/SmileySans-Oblique.ttf.woff2') format('woff2'),
+    url('https://cdn.coderjiang.com/home-page/font/SmileySans-Oblique.otf.woff2') format('woff2'),
+    url('https://cdn.coderjiang.com/home-page/font/SmileySans-Oblique.ttf') format('truetype'),
+    url('https://cdn.coderjiang.com/home-page/font/SmileySans-Oblique.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlibabaPuHuiTi-3-55-Regular';
+    src: url('https://cdn.coderjiang.com/home-page/font/AlibabaPuHuiTi-3-55-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceHanSansSC-VF';
+    src: url('https://cdn.coderjiang.com/home-page/font/SourceHanSansSC-VF.otf.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('https://cdn.coderjiang.com/home-page/font/JetBrainsMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'JetBrains Mono', 'SmileySans', Arial, sans-serif !important;
+    min-width: 900px;
+    background-color: #FFFFFF;
+}
+
