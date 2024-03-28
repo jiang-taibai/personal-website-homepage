@@ -27,6 +27,7 @@ export const logo = {
     'bilibili': CDNRootURL + 'img/logo/bilibili.png',
     'juejin': CDNRootURL + 'img/logo/juejin.png',
     'zhihu': CDNRootURL + 'img/logo/zhihu.png',
+    'greasyfork': CDNRootURL + 'img/logo/greasyfork.png',
     // 自有项目
     'MarkdownRenumber': CDNRootURL + 'img/logo/markdown-renumber.png',
 }
@@ -57,6 +58,10 @@ export const projects_cover = {
         CDNRootURL + 'img/project-cover/markdown-renumber/main.gif',
         CDNRootURL + 'img/project-cover/markdown-renumber/01.png',
         CDNRootURL + 'img/project-cover/markdown-renumber/02.png',
+    ],
+    'FasterBing': [
+        CDNRootURL + 'img/project-cover/faster-bing/main.jpg',
+        CDNRootURL + 'img/project-cover/faster-bing/01.png',
     ],
     'ToBeContinued': [
         CDNRootURL + 'img/project-cover/to-be-continued/01.jpg',

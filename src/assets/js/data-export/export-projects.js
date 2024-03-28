@@ -76,6 +76,26 @@ export const MarkdownRenumber = {
     },]
 }
 
+export const FasterBing = {
+    covers: projects_cover.FasterBing,
+    title: 'Faster Bing',
+    content: `在使用 Bing 搜索时，Bing 会将搜索结果的链接重定向到一个中间页面，然后再跳转到目标页面。这个中间页面会增加一次请求，导致访问速度变慢。
+Faster Bing将重定向链接修改为目标链接，实现直接访问 Bing 搜索结果的目标页面，加快访问速度。`,
+    links: [{
+        'url': 'https://github.com/jiang-taibai/faster-bing',
+        'type': 'GitHub',
+        'icon': logo.github,
+    }, {
+        'url': 'https://gitee.com/jiang-taibai/faster-bing',
+        'type': 'Gitee',
+        'icon': logo.gitee,
+    }, {
+        'url': 'https://greasyfork.org/en/scripts/490999-faster-bing',
+        'type': 'GreasyFork',
+        'icon': logo.greasyfork,
+    },]
+}
+
 export const ToBeContinued = {
     covers: projects_cover.ToBeContinued,
     title: 'To Be Continued',
@@ -84,4 +104,4 @@ export const ToBeContinued = {
 }
 
 
-export const projects = [DevelopmentBooster, ImageSpotlight, DocsifyMerger, MarkdownRenumber]
+export const projects = [DevelopmentBooster, ImageSpotlight, DocsifyMerger, MarkdownRenumber, FasterBing]
