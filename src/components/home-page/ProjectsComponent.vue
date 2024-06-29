@@ -1,9 +1,6 @@
 <script setup>
+
 import SubPageTitleComponent from "@/components/public/SubPageTitleComponent.vue";
-import ProjectCardComponent from "@/components/public/ProjectCardComponent.vue";
-
-import {projects} from "@/assets/js/data-export/export-projects";
-
 </script>
 
 <template>
@@ -13,10 +10,7 @@ import {projects} from "@/assets/js/data-export/export-projects";
     </header>
     <main>
       <div class="projects-container">
-        <div class="project-list">
-          <project-card-component class="project-item" v-for="(project, index) in projects" :key="index"
-                                  :project="project"/>
-        </div>
+        <div style="text-align: center; font-size: x-large; color: #CCEADA">🙈 页面施工中 👋</div>
       </div>
     </main>
   </div>
@@ -36,6 +30,8 @@ import {projects} from "@/assets/js/data-export/export-projects";
 
     .projects-container {
 
+      min-height: 500px;
+
       .project-list {
         margin: 0 auto;
         display: flex;
@@ -44,37 +40,6 @@ import {projects} from "@/assets/js/data-export/export-projects";
 
         .project-item {
           margin: 1%;
-        }
-      }
-    }
-  }
-}
-</style>
-<!-- 默认排列 -->
-<style lang="less" scoped>
-main {
-  .projects-container {
-    .project-list {
-      width: 80%;
-
-      .project-item {
-        width: 80%;
-      }
-    }
-  }
-}
-</style>
-
-<!-- 小屏排列 -->
-<style lang="less" scoped>
-@media (min-width: 1200px) {
-  main {
-    .projects-container {
-      .project-list {
-        width: 80%;
-
-        .project-item {
-          width: 100%;
         }
       }
     }

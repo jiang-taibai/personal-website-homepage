@@ -41,29 +41,33 @@ export const icon = {
 }
 
 export const projects_cover = {
-    'DevelopmentBooster': [
+    DevelopmentBooster: [
         CDNRootURL + 'img/project-cover/development-booster/main.png',
         CDNRootURL + 'img/project-cover/development-booster/01.png',
         CDNRootURL + 'img/project-cover/development-booster/02.png',
     ],
-    'ImageSpotlight': [
+    ImageSpotlight: [
         CDNRootURL + 'img/project-cover/image-spotlight/main.png',
         CDNRootURL + 'img/project-cover/image-spotlight/01.gif',
         CDNRootURL + 'img/project-cover/image-spotlight/02.gif',
     ],
-    'DocsifyMerger': [
+    DocsifyMerger: [
         CDNRootURL + 'img/project-cover/docsify-merger/01.png',
     ],
-    'MarkdownRenumber': [
+    MarkdownRenumber: [
         CDNRootURL + 'img/project-cover/markdown-renumber/main.gif',
         CDNRootURL + 'img/project-cover/markdown-renumber/01.png',
         CDNRootURL + 'img/project-cover/markdown-renumber/02.png',
     ],
-    'FasterBing': [
+    FasterBing: [
         CDNRootURL + 'img/project-cover/faster-bing/main.jpg',
         CDNRootURL + 'img/project-cover/faster-bing/01.png',
     ],
-    'ToBeContinued': [
+    ChatGPTWithDate: [
+        CDNRootURL + 'img/project-cover/chatgpt-with-date/main.webp',
+        CDNRootURL + 'img/project-cover/chatgpt-with-date/01.gif',
+    ],
+    ToBeContinued: [
         CDNRootURL + 'img/project-cover/to-be-continued/01.jpg',
     ]
 }

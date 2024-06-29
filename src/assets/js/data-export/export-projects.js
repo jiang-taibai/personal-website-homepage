@@ -96,6 +96,25 @@ Faster Bing将重定向链接修改为目标链接，实现直接访问 Bing 搜
     },]
 }
 
+export const ChatGPTWithDate = {
+    covers: projects_cover.ChatGPTWithDate,
+    title: 'ChatGPT With Date',
+    content: '有时我们希望看到 ChatGPT 的消息时间，但 ChatGPT 并没有显示消息时间的功能。本项目可以在支持 Tampermonkey 插件的浏览器上使用，实现显示 ChatGPT 每一条消息时间的功能。',
+    links: [{
+        'url': 'https://github.com/jiang-taibai/chatgpt-with-date',
+        'type': 'GitHub',
+        'icon': logo.github,
+    }, {
+        'url': 'https://gitee.com/jiang-taibai/chatgpt-with-date',
+        'type': 'Gitee',
+        'icon': logo.gitee,
+    }, {
+        'url': 'https://greasyfork.org/en/scripts/493949-chatgpt-with-date',
+        'type': 'GreasyFork',
+        'icon': logo.greasyfork,
+    }]
+}
+
 export const ToBeContinued = {
     covers: projects_cover.ToBeContinued,
     title: 'To Be Continued',
@@ -104,4 +123,7 @@ export const ToBeContinued = {
 }
 
 
-export const projects = [DevelopmentBooster, ImageSpotlight, DocsifyMerger, MarkdownRenumber, FasterBing]
+export const projects = [
+    DevelopmentBooster, ImageSpotlight, DocsifyMerger,
+    MarkdownRenumber, FasterBing, ChatGPTWithDate,
+]
