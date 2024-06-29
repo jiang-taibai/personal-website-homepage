@@ -4,6 +4,7 @@ import HomeComponent from "@/components/home-page/HomeComponent.vue";
 import AboutComponent from "@/components/home-page/AboutComponent.vue";
 import ProjectsComponent from "@/components/home-page/ProjectsComponent.vue";
 import FooterComponent from "@/components/home-page/FooterComponent.vue";
+import MinorProjectsComponent from "@/components/home-page/MinorProjectsComponent.vue";
 
 const toView = (name) => {
   const element = document.getElementById(name)
@@ -21,7 +22,8 @@ const toView = (name) => {
     <main>
       <home-component id="home" class="part"/>
       <about-component id="about" class="part"/>
-      <projects-component id="projects"/>
+      <minor-projects-component id="projects"/>
+      <projects-component/>
     </main>
     <footer>
       <footer-component/>
